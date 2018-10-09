@@ -1,0 +1,987 @@
+body {
+	position: relative;
+}
+
+.header1 {
+	background: url("../../img/lyc_img/lyc_platform_img/banner_s.png") no-repeat;
+	width: 100%;
+	height: 680px;
+	display: block;
+	background-size: 100% 100%;
+}
+
+.header1 .title {
+	position: absolute;
+	margin-top: 275px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+}
+
+body .close {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 888;
+	display: none;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.header1 p {
+	position: absolute;
+	margin-top: 350px;
+	width: 100%;
+	height: 70px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+}
+
+.header1 .start {
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top: 430px;
+	left: 50%;
+	margin-left: -60px;
+	background: #ff4800;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-radius: 3px;
+	line-height: 35px;
+	cursor: pointer;
+	border: none;
+}
+
+.use {
+	display: none;
+	/*margin-top: 30px;*/
+	width: 400px;
+	height: 445px;
+	background: white;
+	position: fixed;
+	left: 500px;
+	border-radius: 5px;
+	z-index: 9999;
+	border: 1px solid #BFC8D7;
+}
+
+.use h2 {
+	margin: 20px auto;
+	font-size: 23px;
+	text-align: center;
+	color: dimgrey;
+	z-index: 40;
+}
+
+.use img {
+	width: 25px;
+	height: 25px;
+	right: 20px;
+	position: absolute;
+	top: 20px;
+}
+
+.header1 ul {
+	width: 400px;
+	height: 300px;
+	margin-top: 60px;
+}
+
+.header1 ul li {
+	width: 280px;
+	height: 48px;
+	margin: 0px auto 20px;
+	border: 1px solid #eeeeee;
+}
+
+.header1 ul li:nth-of-type(4) {
+	background: #FF4800;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 48px;
+}
+
+.header1 ul .last {
+	margin-top: 50px;
+}
+
+.use input {
+	float: right;
+	width: 230px;
+	height: 48px;
+	border: none;
+	outline: none;
+	text-align: left;
+	font-size: 12px;
+}
+
+.use li a {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.use li i {
+	width: 48px;
+	height: 48px;
+	border-right: 1px solid gainsboro;
+	float: left;
+}
+
+.use li:nth-of-type(1) i {
+	background: url("../../img/lyc_img/lyc_platform_img/my.png") no-repeat;
+	background-size: 30px 30px;
+	background-position: center;
+}
+
+.use li:nth-of-type(2) i {
+	background: url("../../img/lyc_img/lyc_platform_img/phone.png") no-repeat;
+	background-size: 30px 30px;
+	background-position: center;
+}
+
+.use li:nth-of-type(3) i {
+	background: url("../../img/lyc_img/lyc_platform_img/home.png") no-repeat;
+	background-size: 30px 30px;
+	background-position: center;
+}
+
+section {
+	width: 1202px;
+	margin: 0 auto;
+	position: relative;
+}
+
+section .adv {
+	width: 1200px;
+	height: 120px;
+	background: white;
+	position: absolute;
+	margin-top: -120px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section .back::before {
+	content: "";
+}
+
+.black {
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid black;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	margin-left: 560px;
+	margin-top: 130px;
+}
+
+section .adv img {
+	margin-left: 400px;
+	margin-top: 62px;
+}
+
+section .adv p {
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 90px;
+	position: absolute;
+	margin-left: 460px;
+}
+
+section .adv .our {
+	color: grey;
+	font-size: 25px;
+	margin-left: 450px;
+	margin-top: 140px;
+	position: absolute;
+}
+
+section .adv div {
+	width: 80px;
+	height: 2px;
+	background: #FF4800;
+	margin-left: 530px;
+	margin-top: 190px;
+	position: absolute;
+}
+
+section .main {
+	background: white;
+	width: 1202px;
+	height: 500px;
+}
+
+section .main ul {
+	width: 1202px;
+	height: 274px;
+	/*background: gainsboro;*/
+	position: absolute;
+	margin-top: 200px;
+}
+
+section .main ul li img {
+	float: left;
+	margin-left: 135px;
+}
+
+.main .foot {
+	width: 1202px;
+	height: 74px;
+	/*	background: gainsboro;*/
+	position: absolute;
+	margin-top: 400px;
+	/*	border: 1px solid red;*/
+}
+
+.foot .box1 {
+	float: left;
+	/*	border: 2px solid palegreen;*/
+	width: 300px;
+	height: 50px;
+	margin-left: 50px;
+}
+
+.foot .box1 h4 {
+	margin-left: 140px;
+	font-size: 23px;
+}
+
+.foot .box1 p {
+	text-align: center;
+	margin-top: 10px;
+	color: gray;
+}
+
+.back {
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+section .ablity {
+	margin-top: 200px;
+	width: 1200px;
+	height: 540px;
+}
+
+section .ablity .tone {
+	float: left;
+	height: 540px;
+	width: 400px;
+	background: url(../../img/lyc_img/lyc_platform_img/open_buy.png) no-repeat;
+}
+
+section .ablity .ttwo {
+	float: left;
+	height: 540px;
+	width: 400px;
+	background: url(../../img/lyc_img/lyc_platform_img/open_price.png) no-repeat;
+}
+
+section .ablity .tthree {
+	float: left;
+	height: 540px;
+	width: 400px;
+	background: url(../../img/lyc_img/lyc_platform_img/open_house.png) no-repeat;
+}
+
+.ablity img {
+	margin: 100px 150px;
+}
+
+.ablity p {
+	text-align: center;
+	color: white;
+	font-size: 23px;
+	margin-top: -60px;
+}
+
+.ablity span {
+	width: 50px;
+	height: 2px;
+	background: white;
+	margin-left: 180px;
+	display: inline-block
+}
+
+.ablity .one {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	width: 276px;
+	height: 60px;
+	margin-left: 50px;
+}
+
+.ablity .start {
+	height: 42px;
+	width: 122px;
+	background: transparent;
+	border: 1px solid ghostwhite;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	margin: 40px 130px;
+	cursor: pointer;
+}
+
+.ablity .start:hover {
+	background: #ff4800;
+	border: 1px solid #ff4800;
+}
+
+.ablity .Tone {
+	/*box-shadow: 1px 3px 15px 1px #888888;*/
+	border: 1px solid #DCDCDC;
+	float: left;
+	height: 450px;
+	width: 380px;
+}
+
+.ablity .Ttwo {
+	/*box-shadow: 1px 3px 15px 1px #888888;*/
+	border: 1px solid #DCDCDC;
+	float: left;
+	margin-left: 25px;
+	height: 450px;
+	width: 380px;
+}
+
+.ablity .Tthree {
+	/*box-shadow: 1px 3px 15px 1px #888888;*/
+	border: 1px solid #DCDCDC;
+	float: left;
+	margin-left: 25px;
+	height: 450px;
+	width: 380px;
+}
+
+.ablity .Tone img {
+	margin: 30px 100px;
+}
+
+.ablity .Ttwo img {
+	margin: 30px 100px;
+}
+
+.ablity .Tthree img {
+	margin: 30px 100px;
+}
+
+.ablity .Tone p {
+	margin-top: 5px;
+	color: black;
+}
+
+.ablity .Ttwo p {
+	margin-top: 5px;
+	color: black;
+}
+
+.ablity .Tthree p {
+	margin-top: 5px;
+	color: black;
+}
+
+.ablity .Tone .one {
+	margin-top: 15px;
+	margin-left: 90px;
+	color: grey;
+	width: 200px;
+	text-align: center;
+	height: 40px;
+}
+
+.ablity .Ttwo .one {
+	color: grey;
+	margin-left: 90px;
+	margin-top: 15px;
+	width: 200px;
+	text-align: center;
+	height: 40px;
+}
+
+.ablity .Tthree .one {
+	margin-top: 15px;
+	margin-left: 90px;
+	color: grey;
+	width: 200px;
+	text-align: center;
+	height: 40px;
+}
+
+.ablity .move .start {
+	display: none;
+	cursor: pointer;
+	background: #FF4800;
+}
+
+.ablity .start1 {
+	height: 42px;
+	width: 122px;
+	background: #FF4800;
+	border: 1px solid ghostwhite;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	margin: 40px 130px;
+	cursor: pointer;
+	display: none;
+}
+
+section .content {
+	background: #F5F7FA;
+	width: 1200px;
+	height: 920px;
+	margin-top: -80px;
+	overflow: hidden;
+}
+
+.content ul {
+	width: 9900px;
+	position: relative;
+}
+
+.tab-box .leftt:nth-of-type(1) {
+	left: 500px;
+	color: #FF4800;
+	position: absolute;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	top: 3050px;
+}
+
+.tab-box .rightt:nth-of-type(2) {
+	color: #FF4800;
+	position: absolute;
+	font-size: 16px;
+	cursor: pointer;
+	left: 800px;
+	display: inline-block;
+	top: 3070px;
+}
+
+ol {
+	position: absolute;
+	margin-top: 430px;
+	left: 60%;
+	margin-left: -40px;
+}
+
+ol li {
+	width: 7px;
+	height: 7px;
+	border: 1px solid #FF4800;
+	border-radius: 50%;
+	float: left;
+	margin-right: 4px;
+}
+
+ol .current {
+	background: #FF4800;
+}
+
+.content .adv {
+	margin-top: 0px;
+	background: #F5F7FA;
+	position: relative;
+	margin-left: 40px;
+	width: 1160px;
+}
+
+section .content .back::before {
+	content: "";
+}
+
+.content .black {
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid black;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 130px;
+}
+
+.content ul li {
+	margin-top: 200px;
+	float: left;
+	height: 40px;
+	width: 400px;
+	cursor: pointer;
+	text-align: center;
+	/* border-bottom: 1px solid #BFC8D7;*/
+}
+
+.tab-box div {
+	width: 1200px;
+	height: 490px;
+	/*	border:1px solid #ff4200;*/
+	display: none;
+	margin-top: 250px;
+}
+
+
+/* 让第一个框显示出来 */
+
+.tab-box div:first-Child {
+	display: block;
+}
+
+
+/* 改变选项卡选中时候的样式 */
+
+.change {
+	border-bottom: 1px solid #FF4800;
+	color: #FF4800;
+}
+
+.tab-box span:nth-of-type(1) {
+	display: inline-block;
+	margin: 20px 20px;
+	font-size: 23px;
+	color: black;
+}
+
+.tab-box span:nth-of-type(2) {
+	display: inline-block;
+	width: 570px;
+	margin-top: 0px;
+	margin-right: 450px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #C8C8C8;
+	/*background: #C8C8C8;*/
+}
+
+.tab-box img {
+	margin: 0px 20px;
+}
+
+.tab-box ul li img {
+	margin: 0px 210px;
+	margin-top: -200px;
+}
+
+.tab-box ul li {
+	margin-left: 10px;
+}
+
+.tab-box ul li span:nth-of-type(1) {
+	margin-left: 120px;
+}
+
+.tab-box ul li span:nth-of-type(2) {
+	width: 390px;
+	height: 72px;
+	font-size: 16px;
+	color: rgba(153, 153, 153, 1);
+	line-height: 24px;
+	margin-left: 210px;
+	display: block;
+	text-align: left;
+}
+
+.tab-box.first {
+	float: left;
+}
+
+.tab-box .first img {
+	margin: 0px 0px;
+	margin-top: -200px;
+}
+
+.tab-box .first li {
+	margin-left: 0px;
+}
+
+.tab-box .first span:nth-of-type(1) {
+	margin-left: 10px;
+	width: 230px;
+	margin-right: 200px;
+	text-align: left;
+}
+
+.tab-box .first span:nth-of-type(2) {
+	width: 390px;
+	height: 72px;
+	font-size: 16px;
+	color: rgba(153, 153, 153, 1);
+	line-height: 24px;
+	margin-left: 10px;
+	display: block;
+	text-align: left;
+}
+
+.ablity1 {
+	width: 1200px;
+	height: 400px;
+	margin-top: 300px;
+}
+
+.ablity1 ul {
+	width: 1200px;
+	border-bottom: 1px solid gray;
+	height: 30px;
+}
+
+.ablity1 ul li {
+	float: left;
+	/* border: 1px solid blueviolet;*/
+	width: 80px;
+	text-align: center;
+	overflow: hidden;
+	margin-left: 220px;
+}
+
+.ablity1 .bottom1 {
+	width: 1200px;
+	height: 30px;
+	border-bottom: 1px solid transparent;
+}
+
+.ablity1 .bottom1 li {
+	width: 80px;
+	margin-left: 235px;
+	text-align: left;
+	float: left;
+}
+
+.ablity1 .bottom1 div::after {
+	content: "";
+}
+
+.ablity1 .bottom1 div {
+	height: 0px;
+	width: 0px;
+	border-top: 7px solid transparent;
+	border-right: 7px solid black;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	margin-top: 7px;
+	float: left;
+	margin-left: -100px;
+}
+
+.ablity1 ul div::before {
+	content: "";
+}
+
+.ablity1 ul div {
+	height: 0px;
+	width: 0px;
+	border-top: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-left: 7px solid black;
+	border-bottom: 7px solid transparent;
+	margin-top: 7px;
+	float: left;
+}
+
+.people1 {
+	background: url("../../img/lyc_img/lyc_platform_img/user.png")no-repeat;
+	height: 186px;
+	height: 186px;
+	margin-top: -125px;
+	margin-left: 30px;
+}
+
+.people2 {
+	background: url("../../img/lyc_img/lyc_platform_img/process_price.png")no-repeat;
+	height: 186px;
+	height: 186px;
+	margin-top: -185px;
+	margin-left: 330px;
+}
+
+.people3 {
+	background: url("../../img/lyc_img/lyc_platform_img/user.png")no-repeat;
+	height: 186px;
+	height: 186px;
+	margin-top: -185px;
+	margin-left: 660px;
+}
+
+.people4 {
+	background: url("../../img/lyc_img/lyc_platform_img/close.png")no-repeat;
+	height: 186px;
+	height: 186px;
+	margin-top: -185px;
+	margin-left: 980px;
+}
+
+.ablity1 .box2 {
+	border-bottom: 1px solid transparent;
+	margin-top: 50px;
+	width: 1200px;
+}
+
+.ablity1 .box2 li {
+	width: 120px;
+	float: left;
+	margin-left: 60px;
+	margin-right: 140px;
+	text-align: center;
+}
+
+.ablity1 .box2 li:nth-of-type(4) {
+	width: 120px;
+	float: left;
+	margin-left: 1000px;
+	margin-top: -20px;
+	text-align: center;
+	color: #FF4800;
+}
+
+.ablity1 .box2 li:nth-of-type(2) {
+	color: #FF4800;
+}
+
+.content .revenue {
+	height: 900px;
+	width: 1200px;
+	/*	border: 1px solid red;*/
+	margin-top: 200px;
+}
+
+.revenue .left {
+	height: 290px;
+	width: 670px;
+	background: url("../../img/lyc_img/lyc_platform_img/one_left.png")no-repeat;
+	margin-top: 100px;
+	position: relative;
+}
+
+.revenue .right {
+	float: right;
+	height: 362px;
+	width: 524px;
+	background: url("../../img/lyc_img/lyc_platform_img/one_right.png")no-repeat;
+	margin-top: -330px;
+}
+
+.revenue span:nth-of-type(1) {
+	text-align: center;
+	margin-left: 250px;
+	font-size: 25px;
+	display: block;
+	position: absolute;
+	margin-top: 130px;
+}
+
+.revenue span:nth-of-type(2) {
+	text-align: center;
+	margin-left: 150px;
+	color: gray;
+	display: block;
+	position: absolute;
+	margin-top: 190px;
+}
+
+.revenue .left1 {
+	float: right;
+	height: 362px;
+	width: 524px;
+	background: url("../../img/lyc_img/lyc_platform_img/two_right.png")no-repeat;
+	z-index: 444;
+	position: absolute;
+	margin-top: 170px;
+}
+
+.revenue .right1 {
+	height: 428px;
+	width: 975px;
+	background: url("../img/lyc_platform_img/two_left.png")no-repeat;
+	margin-top: 100px;
+	position: relative;
+	margin-left: 223px;
+	margin-top: 165px;
+}
+
+.revenue .right1 span:nth-of-type(1) {
+	text-align: center;
+	margin-left: 550px;
+	color: black;
+	display: block;
+	position: absolute;
+	margin-top: 90px;
+}
+
+.revenue .right1 span:nth-of-type(2) {
+	text-align: center;
+	margin-left: 450px;
+	color: gray;
+	display: block;
+	position: absolute;
+	margin-top: 140px;
+}
+
+.revenue .right1 .purple {
+	width: 577px;
+	height: 227px;
+	background: #FFF8F1;
+	margin-left: 400px;
+	position: absolute;
+	margin-top: 180px;
+}
+
+.revenue .purple div {}
+
+.revenue .right1 .left11 {
+	margin-left: 40px;
+	float: left;
+	margin-top: 20px;
+	color: #FF4800;
+}
+
+.revenue .right1 .right11 {
+	margin-left: 120px;
+	float: right;
+	margin-top: -165px;
+}
+
+.revenue .right11 p {
+	margin-top: 20px;
+}
+
+.revenue .left11 p {
+	margin-top: 20px;
+}
+
+.revenue .yellow {
+	height: 1px;
+	width: 70px;
+	background: #FF4800;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 320px;
+}
+
+.revenue .yellow1 {
+	height: 1px;
+	width: 70px;
+	background: #FF4800;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 620px;
+}
+
+.ablity .map {
+	position: relative;
+	width: 1200px;
+	height: 541px;
+	background: url(../../img/lyc_img/lyc_platform_img/open_data.png)no-repeat;
+}
+
+.ablity .map img {
+	position: absolute;
+	margin-left: 10px;
+	width: 600px;
+	height: 500px;
+	margin-top: 15px;
+}
+
+.ablity .data {
+	width: 545px;
+	height: 541px;
+	/*background: gainsboro;*/
+	float: right;
+}
+
+.ablity .data ul {
+	margin-top: 30px;
+}
+
+.ablity .data .white {
+	width: 50px;
+	height: 1px;
+	background: white;
+	margin-top: 10px;
+}
+
+.ablity .data .white1 {
+	width: 350px;
+	height: 30px;
+	font-size: 12px;
+	margin-top: 150px;
+	margin-left: -50px;
+}
+
+.ablity .data i {
+	color: #FF4200;
+	font-size: 16px;
+}
+
+.ablity .data h2 {
+	margin-top: 100px;
+	font-size: 23px;
+	color: white;
+}
+
+.ablity .data ul li {
+	float: left;
+	color: white;
+	width: 38px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.ablity .data .see {
+	height: 30px;
+	width: 120px;
+	background: #FF4800;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	margin-left: -0px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.ablity .data .fen {
+	margin-top: 40px;
+	font-size: 23px;
+	color: white;
+}
+
+.backgo {
+	border: none;
+	background: #FF6200;
+	opacity: 0.8;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	display: none;
+	color: white;
+	z-index: 666;
+}
+
+.last ul li {
+	float: left;
+	width: 180px;
+	height: 200px;
+	margin-left: 50px;
+}

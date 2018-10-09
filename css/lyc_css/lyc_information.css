@@ -1,0 +1,607 @@
+.header {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fafafa;
+	height: 110px;
+	width: 1200px;
+}
+
+.headerr .nav {
+	margin-left: 110px;
+	/*height: 80px;*/
+}
+
+.headerr img {
+	margin-top: 20px;
+	width: 208px;
+	height: 50px;
+}
+
+.headerr cite {
+	float: left;
+	margin-left: 220px;
+	background: #ff8400;
+	margin-top: -40px;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	color: white;
+}
+
+.navlogo a,
+span {
+	color: #808080;
+	text-decoration: none;
+	text-overflow: hidden;
+	overflow: hidden;
+}
+
+.navlogo a:hover {
+	color: sandybrown;
+}
+
+main {
+	width: 1200px;
+	margin: 10px auto;
+	min-width: 1000px;
+}
+
+.navheader ul li {
+	list-style: none;
+}
+
+.navheader li {
+	float: left;
+	/*	background: gainsboro;*/
+	margin-right: 20px;
+	width: 80px;
+	height: 40px;
+}
+
+.navheader li.current {
+	background: #ff8400;
+}
+
+.navheader ul {
+	zoom: 1;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 800px;
+	height: 40px;
+}
+
+.navheader a {
+	line-height: 40px;
+	margin-left: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-overflow: hidden;
+}
+
+#box div {
+	display: none;
+}
+
+#box div.current {
+	display: block;
+}
+
+.lunbo {
+	width: 100%;
+	height: 400px;
+}
+
+.lunbo li {
+	color: transparent;
+}
+
+.tupian {
+	float: left;
+	height: 400px;
+	width: 100%;
+}
+
+.box1 {
+	position: absolute;
+	margin-top: 360px;
+	background: #929292;
+	background: rgba(0, 0, 0, 0.2);
+	height: 40px;
+	width: 850px;
+	display: none;
+}
+
+.box1 p {
+	color: white;
+	margin-top: 10px;
+	margin-left: 20px;
+	text-overflow: hidden;
+}
+
+#banner {
+	position: relative;
+	width: 850px;
+	margin-left: 0%;
+	height: 400px;
+	/*border:1px solid #666;*/
+	overflow: hidden;
+}
+
+#banner_bg {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	filter: Alpha(Opacity=30);
+	opacity: 0.3;
+	z-index: 1000;
+	cursor: pointer;
+	width: 478px;
+}
+
+#banner_info {
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	height: 22px;
+	color: #fff;
+	z-index: 1001;
+	cursor: pointer
+}
+
+#banner ul {
+	position: absolute;
+	opacity: 0.8;
+	z-index: 1002;
+	bottom: 15px;
+	right: -350px;
+}
+
+#banner ul li {
+	padding: 0px 8px;
+	float: left;
+	cursor: pointer;
+	width: 20px;
+	height: 2px;
+	background: red;
+	margin-right: 10px;
+}
+
+#banner ul li.on {
+	background: white;
+	margin-right: 20px;
+}
+
+#banner_list a {
+	position: absolute;
+}
+
+#banner_list img {
+	width: 850px;
+}
+
+aside {
+	border: 1px solid gainsboro;
+	border-top: 3px solid #ff8400;
+	float: right;
+	margin-top: -400px;
+	width: 319px;
+	height: 917px;
+}
+
+.aside aside {
+	border-top: 1px solid gainsboro;
+	float: right;
+	margin-top: 58px;
+	height: 452px;
+}
+
+.number aside {
+	margin-top: 40px;
+}
+
+aside .botom {
+	border-bottom: 1px solid transparent;
+}
+
+.aside p {
+	margin-left: 20px;
+	text-overflow: hidden;
+}
+
+.aside aside dl {
+	height: 110px;
+}
+
+.aside aside dt {
+	float: right;
+}
+
+.aside aside dd {
+	float: right;
+	width: 149px;
+	height: 80px;
+	margin-top: -60px;
+}
+
+aside p {
+	text-overflow: hidden;
+	font-size: 24px;
+	margin: 20px;
+	margin-left: 60px;
+}
+
+aside dl {
+	width: 280px;
+	height: 262px;
+	border-bottom: 1px solid gainsboro;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+aside dt {
+	margin-top: 5px;
+}
+
+aside a {
+	text-decoration: none;
+	text-overflow: hidden;
+	color: black;
+}
+
+aside a:hover {
+	color: #FF8400;
+}
+
+aside dd {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #808080;
+}
+
+section {
+	border-bottom: 1px solid gainsboro;
+	margin-top: 30px;
+	width: 850px;
+	height: 120px;
+	/*background: gainsboro;*/
+}
+
+section .new {
+	width: 90px;
+	height: 90px;
+	background: #ff6200;
+	position: relative;
+}
+
+.box4::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	/*border-right: 10px solid transparent;*/
+	border-left: 10px solid #ff6200;
+	position: absolute;
+	right: -10px;
+	top: 40px;
+}
+
+.box4::after {
+	content: "";
+}
+
+section .new p {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	text-overflow: hidden;
+}
+
+section b {
+	float: left;
+	font-size: 28px;
+	margin-left: 120px;
+	margin-top: -90px;
+}
+
+section ul li {
+	list-style: disc;
+	color: #929292;
+}
+
+section ul li a {
+	font-size: 14px;
+	color: black;
+	text-overflow: hidden;
+}
+
+section a {
+	text-decoration: none;
+	color: black;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+section a:hover {
+	color: #FF8400;
+}
+
+section .list {
+	float: left;
+	margin-left: 15px;
+}
+
+section .list1 {
+	float: left;
+	margin-left: 430px;
+	margin-top: -80px;
+}
+
+.section {
+	height: 177px;
+	border-bottom: 1px solid gainsboro;
+	margin-top: 30px;
+	width: 850px;
+}
+
+.section .left img {
+	width: 240px;
+	height: 150px;
+}
+
+.section .box2 {
+	position: absolute;
+	width: 240px;
+	height: 30px;
+	background: #929292;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: -30px;
+}
+
+.section .box2 {
+	color: white;
+}
+
+.section .right {
+	font-size: 14px;
+	float: left;
+	margin-left: 250px;
+	margin-top: -150px;
+	width: 600px;
+}
+
+.section .right .list {
+	float: left;
+	width: 290px;
+}
+
+.section .right ul li {
+	padding: 5px;
+}
+
+.section .right .list li {
+	border-right: 1px solid gainsboro;
+	margin-top: 2px;
+}
+
+.section .right .list1 {
+	float: left;
+	margin-left: 300px;
+	margin-top: -93px;
+	width: 290px;
+}
+
+.section .right .list1 li {
+	border-right: 1px solid transparent;
+	margin-top: 2px;
+}
+
+.section .right a {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	color: #929292;
+	clear: both;
+}
+
+.section .right a:hover {
+	text-decoration: none;
+	color: #FF8400;
+}
+
+.section .right b {
+	font-size: 24px;
+}
+
+.section .right b a {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: black;
+}
+
+.bottom {
+	overflow: hidden;
+	width: 850px;
+	margin-top: 57px;
+}
+
+.bottom .box3 {
+	height: 40px;
+}
+
+.bottom a {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: right;
+	text-decoration: none;
+	color: #929292;
+}
+
+.bottom a:hover {
+	color: #FF8400;
+}
+
+.bottom span {
+	color: #000000;
+	text-overflow: hidden;
+}
+
+.bottom .line {
+	width: 710px;
+	height: px;
+	border-top: 1px solid gainsboro;
+	margin-left: 45px;
+	margin-top: -10px;
+}
+
+.bottom .aside {
+	width: 433px;
+	height: 240px;
+}
+
+.bottom .aside img {
+	width: 100%;
+	height: 240px;
+	float: left;
+	margin-right: 430px;
+}
+
+.bottom .sided {
+	float: right;
+	margin-top: -400px;
+	width: 403px;
+	height: 411px;
+	overflow: hidden;
+}
+
+.bottom .side {
+	margin-top: 10px;
+	width: 403px;
+	height: 190px;
+	/*background: wheat;*/
+	/*	border-right: 1px solid gainsboro;*/
+}
+
+.bottom .side p a {
+	font-size: 18px;
+	width: 400px;
+	color: black;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bottom .side p a:hover {
+	color: #FF8400;
+}
+
+.bottom .side a {
+	float: left;
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bottom .aside cite {
+	width: 440px;
+	height: 130px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 400px;
+}
+
+.bottom .aside cite img {
+	width: 137px;
+	height: 99px;
+	margin-right: 8px;
+}
+
+.bottom .aside .box2 {
+	position: absolute;
+	width: 433px;
+	height: 30px;
+	background: #929292;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 210px;
+}
+
+.bottom .box2 p {
+	font-size: 13px;
+	margin-top: 5px;
+	color: white;
+	margin-left: 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.foot {
+	width: 137px;
+	height: 40px;
+	float: left;
+	margin-left: 7px;
+}
+
+.foot span {
+	font-size: 12px;
+	color: #808080;
+}
+
+.box5 {
+	height: 1px;
+	width: 850px;
+	border-bottom: 1px solid #DCDCDC;
+	margin-top: 20px;
+}
+
+aside ul li {
+	width: 279px;
+	height: 29px;
+	list-style: initial;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #929292;
+}
+
+aside ul li a {
+	color: #929292;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bottom li a {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 10px;
+}
+
+.bottom .list li a {
+	border-right: 1px solid gainsboro;
+}
+
+.bottom .list {
+	width: 100px;
+	float: left;
+}
+
+.bottom .list1 {
+	width: 100px;
+	float: left;
+	margin-left: 110px;
+}

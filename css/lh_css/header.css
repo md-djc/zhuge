@@ -1,0 +1,122 @@
+*{margin: 0;padding: 0;list-style: none;}
+.icon {
+    /* 通过设置 font-size 来改变图标大小 */
+    width: 1.5em; height: 1.5em;
+    /* 图标和文字相邻时，垂直对齐 */
+    vertical-align: middle;
+    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    fill: currentColor;
+    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+       normalize.css 中也包含这行 */
+    overflow: hidden;
+}
+
+header.lh_hearderMoreImportant{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    box-shadow: 0px -4px 20px 0px rgba(0,0,0,0.3);
+    background: rgba(0,0,0,.4);
+}
+.lh_hearderMoreImportant .header_main{
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    position: relative;
+    color: #FFFFFF;
+}
+.header_main h1.logo_box{
+    float: left;
+    width: 113px;
+    height: 27px;
+    background: url("../../img/lh_img/logo.png")no-repeat;
+    background-size: 100% 100%;
+}
+.header_mainleft {
+    float: left;
+    width: 80%;
+    height: 36px;
+    padding-top: 13px;
+}
+.header_address{
+    float: left;
+    height: 27px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fffff;
+    line-height: 27px;
+    padding-left: 20px;
+    margin-right: 30px;
+    background-position: left center;
+}
+.header_address svg{
+    color: #ff8400;
+}
+.header_mainleft .header_ulnav{
+    float: left;
+    height: 36px;
+}
+.header_mainleft .header_ulnav li{
+    float: left;
+    height: 44px;
+    margin-right: 23px;
+    position: relative;
+}
+.header_mainleft .header_ulnav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 27px;
+}
+.header_mainleft .header_ulnav li .header_newhouse{
+    position: absolute;
+    width: 130px;
+    margin-left: -54px;
+    text-align: center;
+    display: none;
+}
+.header_newhouse span{
+    position: relative;
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #e7e7e7;
+    border-bottom: none;
+    border-right: none;
+    display: block;
+    transform:rotate(45deg);
+    left: 44%;
+    z-index: 9;
+}
+.header_newhouse p{
+    position: relative;
+    background: #FFFFFF;
+    line-height: 40px;
+    font-size: 14px;
+    border: 1px solid #e7e7e7;
+    color: #333333;
+}
+.header_newhouse p:nth-of-type(1){
+    margin-top: -8px;
+    border-bottom: none;
+}
+.header_mainright{
+    height: 36px;
+    padding-top: 13px;
+    float: right;
+}
+.header_mainright a{
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.header_mainright a:nth-of-type(1){
+    margin-right: 10px;
+}
+a.header_act{
+    color: #ff8400!important;
+}

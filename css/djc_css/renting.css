@@ -1,0 +1,475 @@
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.header{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.header .header-top{
+	width: 100%;
+	height: 90px;
+}
+.header .header-left{
+	float: left;
+}
+.header .header-left .logo{
+	background: url(../../img/djc_img/logo.png);
+	width: 208px;
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: left;
+} 
+.header .header-left span{
+	width: 55px;
+	height: 22px;
+	background: #FF8400;
+	color: white;
+	line-height: 22px;
+	margin-top: 36px;
+	float: left;
+	text-align: center;
+}
+.header .header-right{
+	float: right;
+	margin-top: 40px;
+	width: 481px;
+	position: relative;
+}
+input{
+	outline: none;
+}
+.header .header-right input[type="text"]{
+	width: 350px;
+	height: 38px;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #e1e1e1;
+	border-right-width: 0;
+	padding-left: 20px;
+	position: absolute;
+	font-size: 12px;
+}
+.header .header-right input[type="button"]{
+	width: 110px;
+	height: 40px;
+	background: #FF8400;
+	border: 0;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0 5px 5px 0;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.header .header-bottom{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.header .header-bottom a{
+	color: #9d9d9d;
+	font-size: 12px;
+}
+.header .header-bottom span{
+	color: #9d9d9d;
+}
+.main-middl{
+	width: 1200px;
+	margin: 0 auto;
+	background: #f8f8f8;
+	padding-bottom: 10px;
+}
+.main-middl .main-middle1{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto 15px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.main-middl .main-middle1 span{
+	line-height: 50px;
+	margin-right: 10px;
+	padding: 0 20px 12px;
+}
+.main-middl .main-middle1 span:hover{
+	color: #FF8400;
+	border-bottom: 4px solid #FF8400;
+	cursor: pointer;
+}
+.main-middl .main-middle1 span:nth-of-type(1){
+	color: #FF8400;
+	border-bottom: 4px solid #FF8400;
+}
+.main-middl .main-middle{
+	width: 1100px;
+	margin: 0 auto 20px;
+	font-size: 12px;
+}
+.main-middl .main-middle b{
+	margin-right: 10px;
+}
+.main-middl .main-middle a{
+	margin-right: 20px;
+}
+.icon {
+	width: 2em;
+	height: 1em;
+	vertical-align: middle;
+	fill: currentColor;
+	overflow: hidden;
+}
+.main-middl .main-middle .con{
+	color: #FF8400;
+}
+.main-middl .middle3-input input{
+	width: 35px;
+	border: 1px solid #b7b7b7;
+	text-align: center;
+}
+.main-middl .main-middle3 b{
+	float: left;
+}
+.main-middl .main-middle3 a{
+	float: left;
+}
+a:hover{
+	text-decoration: none;
+}
+.main-middl .com a:hover{
+	color: #FF8400;
+}
+.main-middl .main-middle a:hover svg{
+	color: #FF8400;
+}
+.main-middle6{
+	position: relative;
+}
+.main-middle6 .none{
+	margin-top: 12px;
+	width: 550px;
+    padding: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
+    background: white;
+    z-index: 3;
+    border: 1px solid #ddd;
+    line-height: 30px;
+}
+.main-middle6 .com-none{
+	position: absolute;
+	left: 100px;
+	display: none;
+}
+.main-middle6 .con-none{
+	position: absolute;
+	left: 200px;
+	display: none;
+}
+.main-middle6 .none a{
+	margin-right: 46px;
+}
+.main-middle6 .com-none .none-bottom{
+	padding-bottom: 20px;
+}
+.main-middle6 .none span{
+	display: block;
+    float: right;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.main-middle6 .none span:nth-of-type(1){
+	background: #ff8400;
+	color: #fff;	
+}
+.main-middle6 svg{
+	margin-left: -7px;
+}
+i{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #b7b7b7;
+}
+.hover{
+	width: 12px;
+	height: 12px;
+	background: url(../../img/djc_img/true.png) no-repeat;
+	border: none;
+}
+.main-middle7,.main-middle8{
+	display: none;
+}
+.main-middl .main-middle9{
+	text-align: center;
+	width: 78px;
+	margin: 18px auto 0;
+	color: #888888;
+	vertical-align: middle;
+}
+.main-middle9>p{
+	cursor: pointer;
+	display: inline-block;
+}
+.main-middle9>svg{
+	display: inline-block;
+}
+.renting{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.renting .renting-left,.bosom{
+	width: 840px;
+	float: left;
+	position: relative;
+}
+.renting .renting-left .top{
+	width: 840px;
+    color: #888888;
+    font-size: 16px;
+    margin: 30px 0 20px 0;
+}
+.renting .renting-left .top b{
+	color: #000000;
+}
+.renting .renting-left .top strong{
+	color: #FF8400;
+}
+.renting .bosom{
+	float: left;
+	border-bottom: solid 3px #ff8400;
+}
+.renting .bosom>a{
+	float: left;
+	width: 150px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.renting .bosom>a.current{
+    width: 150px;
+    height: 50px;
+	background: #FF8400;
+	color: white;
+}
+.renting .copy{
+	height: 35px;
+    width: 140px;
+    border: 1px solid #FF8400;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 7px;
+    display: none;
+    background: white;
+    text-align: center;
+    line-height: 35px;
+}
+.renting .copy::after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-left: 1px solid #FF8400;
+	border-bottom: 1px solid #FF8400;
+	transform: rotate(-45deg);
+	position: absolute;
+	left: 60px;
+	top:31px;
+	background: #ffffff;
+}
+.renting .copy1{
+	left: 150px;
+	top: 10px;
+}
+.renting .copy2{
+	left: 300px;
+	top: 10px;
+}
+.renting .copy3{
+	left: 450px;
+	top: 10px;
+}
+.renting .bottom ul{
+	display: none;
+}
+.renting .bottom ul.current{
+    display: block;
+}
+.renting .bottom ul li{
+	width: 840px;
+    border-bottom: 1px solid #efefef;
+    float: left;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.renting .bottom ul li>a{
+	float: left;
+	width: 270px;
+    height: 180px;
+    margin-top: 28px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.renting .bottom ul li>a img{
+	width: 100%;
+}
+.renting .bottom ul li .title{
+	width: 470px;
+    float: left;
+    margin: 28px 0 0 20px;
+    position: relative;
+}
+.renting .bottom .title .pic{
+    font-size: 24px;
+    font-weight: bold;
+}
+.renting .bottom .title .pic-describe{
+	position: relative;
+}
+.renting .bottom .title .pic-describe span{
+	display: block;
+	color: #7b7b7b;
+	margin-top: 7px;
+	overflow: hidden;
+	
+}
+.renting .bottom .title .pic-describe span img{
+	width: 16px;
+    height: 16px;
+    margin: 3px 0 0 5px;
+}
+.renting .bottom .title .pic-describe span:nth-of-type(5){
+	background: #EFEFEF;
+	padding: 0 10px;
+	border-radius: 3px;
+	color: #656565;
+	font-size: 12px;
+	height: 24px;
+	display: inline-block;
+	line-height: 24px;
+	margin-top: 5px;
+	border:1px solid #ffffff;	
+}
+.renting .bottom .title .pic-describe .right_span{
+	color: #ff8400;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: -65px;
+}
+.renting .bottom .title .pic-describe .right_span b{
+	font-size: 30px;
+}
+.renting-right{
+	float: right;
+	width: 300px;
+    padding: 25px 20px;
+    border: 1px solid #EFEFEF;
+    margin-top: 80px;
+}
+.house_box>p{
+	font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.house_box ul{
+	width: 280px;
+    margin-top: 20px;
+}
+.house_box ul li{
+	width: 280px;
+    margin-bottom: 30px;
+}
+.house_box ul li a:nth-of-type(1){
+	position: relative;
+	width: 280px;
+	height: 200px;
+	display: inline-block;
+	background: url(../../img/djc_img/10.jpg);
+	background-size: cover;
+    background-position: center center;
+}
+.house_box ul li a:nth-of-type(1) p{
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	color: white;
+}
+.house_box ul li a:nth-of-type(2) p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.house_box ul li>p{
+	margin-top: 5px;
+}
+.house_box ul li div{
+	margin-top: 5px;
+    width: 280px;
+    height: 20px;
+}
+.house_box ul li div p{
+	color: #878787;
+	float: left;
+}
+.house_box div img{
+	margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+}
+.house_box ul li .price{
+	font-size: 14px;
+	color: #FF8400;
+}
+.house_box ul li .price b{
+	font-size: 20px;
+}
+.renting-right .quick{
+	width: 320px;
+	height: 335px;
+	margin-top: 30px;
+	text-align: center;
+	border:1px solid #ffffff;
+}
+.renting-right .quick .img{
+	background: url(../../img/djc_img/weixin_code.png);
+	background-size: cover;
+    background-position: center center;
+	width: 190px;
+	height: 250px;
+	margin: 20px auto 0;
+}
+.renting-right .quick p:nth-of-type(2){
+	margin-top: 5px;
+	font-size: 16px;
+}
+.renting-right .quick span{
+	font-size: 12px;
+}
+.page{
+	width: 840px;
+	height: 30px;
+	margin: 30px auto 80px;
+}
+.page a{
+	color: #333333;
+	border-radius: 3px;
+	background: white;
+	margin: 0 13px;
+	padding: 7px 13px;
+}
+.page a.curr{
+	background: #FF8400;
+	color: white;
+}

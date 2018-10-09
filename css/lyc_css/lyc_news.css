@@ -1,0 +1,312 @@
+main {
+	width: 1200px;
+	margin: 10px auto;
+	min-width: 1000px;
+	position: relative;
+}
+
+.header {
+	margin: 0 auto;
+	margin-top: 60px;
+	background: #fafafa;
+	height: 110px;
+	width: 1200px;
+}
+
+.headerr .nav {
+	margin-left: 110px;
+	/*height: 80px;*/
+}
+
+.headerr img {
+	margin-top: 20px;
+	width: 208px;
+	height: 50px;
+}
+
+.headerr cite {
+	float: left;
+	margin-left: 220px;
+	background: #ff8400;
+	margin-top: -40px;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	color: white;
+}
+
+.navlogo a,
+span {
+	color: #808080;
+	text-decoration: none;
+}
+
+.navlogo a:hover {
+	color: sandybrown;
+}
+
+.navheader ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.navheader li {
+	float: left;
+	/*	background: gainsboro;*/
+	margin-right: 20px;
+	width: 80px;
+	height: 40px;
+}
+
+.navheader li.current {
+	background: #ff8400;
+}
+
+.navheader ul {
+	zoom: 1;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 800px;
+	height: 40px;
+}
+
+.navheader a {
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+#box div {
+	display: none;
+}
+
+#box div.current {
+	display: block;
+}
+
+main aside {
+	margin-top: 10px;
+	width: 321px;
+	height: 466px;
+	position: absolute;
+	border: 1px solid gainsboro;
+	margin-left: 880px;
+}
+
+.section2 {
+	width: 850px;
+	height: 162px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.left img {
+	display: block;
+	border: 0;
+	width: 100%;
+	transform: scale(1);
+	transition: all 1s ease 0s;
+	width: 180px;
+	height: 120px;
+	margin-top: 20px;
+}
+
+.left:hover img {
+	transform: scale(1.1);
+	transition: all 1s ease 0s;
+}
+
+.section2 cite {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -120px;
+}
+
+.section2 a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+
+.section2 a:hover {
+	color: #FF6200;
+}
+
+.section2 p {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -70px;
+	width: 625px;
+	height: 58px;
+}
+
+.section2 span {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -20px;
+	color: black;
+}
+
+.hot {
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+aside ul {
+	margin-top: 10px;
+}
+
+aside ul li {
+	width: 300px;
+	height: 30px;
+	/*background: #F4A460;*/
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+aside a {
+	text-decoration: none;
+	color: #000000;
+}
+
+aside cite {
+	margin-left: 10px;
+}
+
+aside a:hover {
+	color: #FF8400;
+}
+
+aside p {
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+aside span {
+	width: 20px;
+	height: 20px;
+	background: white;
+	display: inline-block;
+	position: relative;
+}
+
+aside .one {
+	width: 20px;
+	height: 20px;
+	background: #FF0000;
+	display: inline-block;
+	position: relative;
+}
+
+aside .one::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-top: 20px solid #ffb225;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #ffb225;
+	border-left: 10px solid #ffb225;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+aside .two {
+	width: 20px;
+	height: 20px;
+	background: #FF0000;
+	display: inline-block;
+	position: relative;
+}
+
+aside .two::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-top: 20px solid #bfc8d7;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #bfc8d7;
+	border-left: 10px solid #bfc8d7;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+aside .three {
+	width: 20px;
+	height: 20px;
+	background: #FF0000;
+	display: inline-block;
+	position: relative;
+}
+
+aside .three::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-top: 20px solid #808080;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #808080;
+	border-left: 10px solid #808080;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+aside i {
+	position: absolute;
+	z-index: 6;
+	margin-left: 5px;
+	color: white;
+}
+
+aside .four {
+	position: absolute;
+	z-index: 6;
+	margin-left: 5px;
+	color: black;
+}
+
+
+/*footer{
+	background: gainsboro;
+	height: 200px;
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer li {
+	float: left;
+	background: gainsboro;
+	margin-right: 20px;
+	width: 80px;
+	height: 40px;
+
+}
+footer li.current {
+	background:  #ff8400;
+}
+
+footer ul {
+	zoom: 1;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 800px;
+	height: 40px;
+}
+ footer a{
+ 	line-height: 40px;
+ 	margin-left: 10px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	color: #000000;
+ 	font-size: 16px;
+ 	font-family: "微软雅黑";
+ }
+*/

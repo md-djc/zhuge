@@ -1,0 +1,121 @@
+.main {
+	/*background: #BFC8D7;*/
+	width: 1200px;
+	margin: 10px 70px 10px;
+	min-width: 1000px;
+}
+
+.title {
+	/*	background:gainsboro;*/
+	height: 40px;
+	width: 1000px;
+	margin-left: 100px;
+	text-align: center;
+	font-size: 28px;
+	margin-top: 100px;
+}
+
+.current {
+	/*background:gainsboro;*/
+	height: 200px;
+	width: 1000px;
+	margin-left: 100px;
+	line-height: 40px;
+	letter-spacing: 1.24px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.search {
+	/*background:gainsboro;*/
+	width: 1000px;
+	height: 2149px;
+	margin-left: 100px;
+	letter-spacing: 1.24px;
+	margin: 50px auto;
+}
+
+.list {
+	position: relative;
+	height: 465px;
+	/*	background:wheat;*/
+}
+
+.img {
+	width: 450px;
+	height: 395px;
+	/*	background: red;*/
+}
+
+.artical {
+	position: absolute;
+	margin-left: 580px;
+	margin-top: -350px;
+	width: 420px;
+	height: 239px;
+	/*	background: #F4A460;*/
+}
+
+.artical p {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.artical1 {
+	margin-top: 20px;
+	line-height: 40px;
+	letter-spacing: 1.24px;
+}
+
+.middle {
+	width: 450px;
+	height: 395px;
+	/*background: red;*/
+	float: right;
+}
+
+.midartical {
+	position: absolute;
+	margin-top: 100px;
+	width: 420px;
+	height: 239px;
+	/*	background: #F4A460;*/
+}
+
+.midartical p {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.midarticall {
+	margin-top: 20px;
+	line-height: 40px;
+	letter-spacing: 1.24px;
+}
+
+.imggg {
+	margin-left: 500px;
+	margin-top: -180px;
+}
+
+.artical span {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: paleturquoise;
+	display: inline-block;
+	font-size: 33px;
+	text-align: center;
+	color: deepskyblue;
+}
+
+.midartical span {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: paleturquoise;
+	display: inline-block;
+	font-size: 33px;
+	text-align: center;
+	color: deepskyblue;
+}
